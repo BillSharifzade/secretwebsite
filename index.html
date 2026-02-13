@@ -1,0 +1,188 @@
+<!DOCTYPE html>
+<html lang="ru">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Валентинка:)</title>
+    <meta name="description"
+        content="Особое послание на День Святого Валентина для самого прекрасного человека в моей жизни." />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+        href="https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400;0,700;1,400;1,700&family=Cormorant+Garamond:ital,wght@0,300;0,400;0,600;1,300;1,400&family=Great+Vibes&display=swap"
+        rel="stylesheet" />
+    <link rel="stylesheet" href="style.css" />
+    <script src="https://unpkg.com/lucide@latest/dist/umd/lucide.js"></script>
+</head>
+
+<body>
+    <div class="intro-screen" id="introScreen">
+        <div class="intro-hearts-bg" id="introHeartsBg"></div>
+        <div class="intro-content">
+            <div class="intro-knight-icon"><i data-lucide="shield" class="lucide-knight"></i></div>
+            <h1 class="intro-question script-font">Позвольте простому рыцарю cпросить, вы будете моей валентинкой?</h1>
+            <div class="intro-buttons">
+                <button class="intro-btn intro-btn-yes" id="btnYes">Да! :)</button>
+                <button class="intro-btn intro-btn-no" id="btnNo">Нет >:(</button>
+            </div>
+        </div>
+    </div>
+
+    <div class="main-content" id="mainContent" style="display: none;">
+        <div class="hearts-container" id="heartsContainer"></div>
+        <div class="cursor-trail" id="cursorTrail"></div>
+        <section class="hero" id="hero">
+            <div class="hero-overlay"></div>
+            <div class="hero-content">
+                <div class="hero-badge">
+                    <span class="heart-icon"><i data-lucide="heart" class="lucide-inline"></i></span>
+                    <span>14 февраля, 2026</span>
+                    <span class="heart-icon"><i data-lucide="heart" class="lucide-inline"></i></span>
+                </div>
+                <h1 class="hero-title">
+                    <span class="title-line title-line-1">С Днём</span>
+                    <span class="title-line title-line-2">Святого Валентина</span>
+                </h1>
+                <p class="hero-subtitle">Самой прекрасной душе в моём мире</p>
+                <div class="hero-heart-divider">
+                    <span class="divider-line"></span>
+                    <span class="divider-heart"><i data-lucide="heart" class="lucide-inline"></i></span>
+                    <span class="divider-line"></span>
+                </div>
+                <p class="hero-message">Каждый момент с тобой — это истинное счастье:)</p>
+                <a href="#love-letter" class="hero-btn" id="heroBtn">
+                    <span>Письмо:)</span>
+                    <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                        <path d="M12 5v14M5 12l7 7 7-7" />
+                    </svg>
+                </a>
+            </div>
+        </section>
+
+        <section class="love-letter" id="love-letter">
+            <div class="section-container">
+                <div class="envelope" id="envelope">
+                    <div class="envelope-icon"><i data-lucide="mail-heart" class="lucide-envelope"></i></div>
+                    <h2 class="section-title script-font">Письмо для тебя</h2>
+                    <div class="letter-card" id="letterCard">
+                        <div class="letter-seal"><i data-lucide="heart" class="lucide-seal"></i></div>
+                        <div class="letter-content">
+                            <p class="letter-greeting script-font">Моя самая дорогая,</p>
+                            <p>
+                                Я слушал много песен и учил принципы музыки, но твой голос, боже мой, ни один звук,
+                                композиция, мелодия, исполнитель, инструмен НИЧТО не сравнится с твоим звучанием, я
+                                люблю тебя слушать
+                            </p>
+                            <p>
+                                Имея цветовую слепоту и не самое лучшее зрение я все равно вижу тебя самой красивой
+                                девушкой, ты не представляешь на сколько нереально выглядишь, каждый раз думаю что ты
+                                мне снишься и молюсь не просыпаться, эта нежность, женственность и каждый кусочек тела и
+                                души, я не могу...
+                            </p>
+                            <p>
+                                Ты самая лучшая сестра, самая лучшая дочь, ты самая лучшая подруга, ты самый лучший
+                                спутник жизни, Луна с Землей не сравнятся с нами
+                            </p>
+                            <p>
+                                Твой характер... даже когда ты злишься, даже когда ты не в настроении, я все равно люблю
+                                этот характер и всегда буду с тобой в плохие дни, а когда у тебя все хорошо, ты
+                                ослепляешь, радуешь всех близких, радуешь меня:)
+                            </p>
+                            <p>
+                                У тебя самый эстетичный и уникальный вкус во всем, от одежды до мельчайших деталей и как
+                                же ты ценишь эти маленькие кирпичики из которых состоит что-то большее, что показывает
+                                твой интеллект и мудрость, что не раз спасало меня дурака
+                            </p>
+                            <p>
+                                Я просто хочу быть с тобой и мне от этой жизни больше ничего не надо:)
+                            </p>
+                            <p class="letter-closing">Навсегда твой,</p>
+                            <p class="letter-signature script-font">С любовью <i data-lucide="heart"
+                                    class="lucide-inline-text"></i></p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section class="gallery" id="gallery">
+            <div class="section-container">
+                <h2 class="section-title script-font">Наши прекрасные моменты</h2>
+                <p class="section-subtitle">Каждое воспоминание с тобой — это высеченные в моем мозгу самые прекрасные
+                    моменты</p>
+                <div class="gallery-grid">
+                    <div class="gallery-item gallery-item-large">
+                        <img src="assets/my_little_preciousness.jpg" class="gallery-img"
+                            alt="Причина по которой я просыпаюсь по утрам" loading="lazy">
+                        <div class="gallery-overlay">
+                            <span class="gallery-caption">Причина по которой я просыпаюсь по утрам</span>
+                        </div>
+                    </div>
+                    <div class="gallery-item">
+                        <img src="assets/first_photo_of_us.jpg" class="gallery-img" alt="Вместе:)" loading="lazy">
+                        <div class="gallery-overlay">
+                            <span class="gallery-caption">Вместе:)</span>
+                        </div>
+                    </div>
+                    <div class="gallery-item">
+                        <img src="assets/best_day_of_my_life.jpg" class="gallery-img" alt="Приключения:)"
+                            loading="lazy">
+                        <div class="gallery-overlay">
+                            <span class="gallery-caption">Приключения:)</span>
+                        </div>
+                    </div>
+                    <div class="gallery-item">
+                        <img src="assets/our_legs.jpg" class="gallery-img" alt="Счастье:)" loading="lazy">
+                        <div class="gallery-overlay">
+                            <span class="gallery-caption">Счастье:)</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section class="poem-section" id="poem">
+            <div class="poem-bg-hearts">
+                <i data-lucide="heart" class="lucide-bg-heart"></i>
+                <i data-lucide="heart" class="lucide-bg-heart"></i>
+                <i data-lucide="heart" class="lucide-bg-heart"></i>
+                <i data-lucide="heart" class="lucide-bg-heart"></i>
+                <i data-lucide="heart" class="lucide-bg-heart"></i>
+            </div>
+            <div class="section-container">
+                <div class="poem-card">
+                    <div class="poem-quote-mark">"</div>
+                    <p class="poem-text">
+                        Закалённое боями, знаниями и жизнью доспехи мои </br>
+                        Не разрушаемый щит и мой могучий меч </br>
+                        И до сердца камней бесконечных слои </br>
+                        Как бы грозным не казался солдат, растаял он от одной с вами встречи </br>
+                        Вы пробили насквозь и разнесли в щепки мои орудия силой любви </br>
+                        И клянусь я вам, что готов вас от всего сберечь </br>
+                        Если позволите быть рядом, буду биться за вас до крови </br>
+                        И извольте ярчайшая звезда, мне спустить валентинку из своих плеч </br>
+                    </p>
+                    <div class="poem-author">— Мой скромный стих для тебя:)</div>
+                </div>
+            </div>
+        </section>
+        <footer class="footer" id="footer">
+            <div class="footer-hearts">
+                <span class="footer-heart" style="--delay: 0s"><i data-lucide="heart" class="lucide-footer"></i></span>
+                <span class="footer-heart" style="--delay: 0.5s"><i data-lucide="heart"
+                        class="lucide-footer"></i></span>
+                <span class="footer-heart" style="--delay: 1s"><i data-lucide="heart" class="lucide-footer"></i></span>
+                <span class="footer-heart" style="--delay: 1.5s"><i data-lucide="heart"
+                        class="lucide-footer"></i></span>
+                <span class="footer-heart" style="--delay: 2s"><i data-lucide="heart" class="lucide-footer"></i></span>
+            </div>
+            <p class="footer-text script-font">Ты и Я — Навсегда</p>
+        </footer>
+
+    </div>
+
+    <script src="script.js"></script>
+</body>
+
+</html>
